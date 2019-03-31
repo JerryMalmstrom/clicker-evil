@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>title</title>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Poppins:300,400" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </head>
+    <body onload="initialize()">
+        
+        <h3 class="ui center aligned header">Clicker</h3>
+
+        <div class="ui three column container">
+            <div class="column">
+                <div class="ui label">
+                    <i class="money icon"></i> $<span id="money_label">0</span>
+                </div>
+            </div>
+        </div>
+        
+        <br/><br/><br/>
+
+        <div class="ui container">
+            <div class="ui three stackable cards">
+                <div id="item01" class="card">
+                    <div class="content">
+                        <div class="header">Item header</div>
+                        <div class="description">
+                            Item description
+                        </div>
+                    </div>
+                    <button class="ui bottom attached button" value="10">
+                        <i class="hand point up outline icon"></i>
+                        <span>Click</span>
+                    </buttoon>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
