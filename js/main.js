@@ -33,7 +33,7 @@ function initialize() {
         current_money -= expense_per_second;
     }, 1000 );
 
-    items.foreach(item => {
+    items.forEach(item => {
         var htmlcard = '<div id="' + item.name + '" class="card">' +
         '<div class="content">' +
         '    <div class="header">' + item.name + '</div>' +
