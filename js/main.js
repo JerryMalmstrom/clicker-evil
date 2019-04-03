@@ -50,19 +50,6 @@ function initialize() {
         $('#cards').append(htmlcard);
     });
     
-    <div id="item01" class="card">
-                    <div class="content">
-                        <div class="header">Mine</div>
-                        <div class="description">
-                            Item description
-                        </div>
-                    </div>
-                    <button class="ui bottom attached button" value="1">
-                        <i class="tencent weibo icon"></i>
-                        <span>Work in mine</span>
-                    </button>
-                </div>
-
     $( 'button' ).on('click', function() {
         var $button = $(this);
         add_money(parseInt($button.attr("value")));
