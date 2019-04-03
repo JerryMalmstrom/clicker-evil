@@ -36,7 +36,7 @@ function initialize() {
     items.foreach(item => {
         var htmlcard = '<div id="' + item.name + '" class="card">' +
         '<div class="content">' +
-        '    <div class="header"' + item.name + '</div>' +
+        '    <div class="header">' + item.name + '</div>' +
         '    <div class="description">' +
         '        Item description' +
         '    </div>' +
